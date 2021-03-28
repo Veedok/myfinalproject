@@ -464,7 +464,7 @@ nav:hover .mega_nav {
 /* Стили Promo*/
 .promo {
   background-color: #e8e8e8;
-  background-image: url(../..//img/header-bg.png);
+  background-image: url(../img/header-bg.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -548,15 +548,15 @@ p {
 }
 .mens {
   padding-top: 26px;
-  background-image: url(../../img/cat-1.png);
+  background-image: url(../img/cat-1.png);
 }
 .women {
   padding-top: 26px;
-  background-image: url(../../img/cat-2.png);
+  background-image: url(../img/cat-2.png);
 }
 .accoseriese {
   padding-top: 25px;
-  background-image: url(../../img/cat-3.png);
+  background-image: url(../img/cat-3.png);
 }
 .pink_text {
   color: #f16d7f;
@@ -580,7 +580,7 @@ p {
 }
 .kids {
   padding-top: 27px;
-  background-image: url(../../img/cat-4.png);
+  background-image: url(../img/cat-4.png);
 }
 .mens_text {
   padding: 16px;
@@ -663,7 +663,7 @@ p {
 .items_1 {
   position: relative;
   z-index: 2;
-  background-image: url(../../img/item-1.png);
+  background-image: url(../img/item-1.png);
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -761,37 +761,37 @@ p {
   border: 1px solid #ffffff;
 }
 .items_2 {
-  background-image: url(../../img/item-2.png);
+  background-image: url(../img/item-2.png);
   background-repeat: no-repeat;
   background-position: top;
 }
 .items_3 {
-  background-image: url(../../img/item-3.png);
+  background-image: url(../img/item-3.png);
   background-repeat: no-repeat;
   background-position: top;
 }
 .items_4 {
-  background-image: url(../../img/item-4.png);
+  background-image: url(../img/item-4.png);
   background-repeat: no-repeat;
   background-position: top;
 }
 .items_5 {
-  background-image: url(../../img/item-5.png);
+  background-image: url(../img/item-5.png);
   background-repeat: no-repeat;
   background-position: top;
 }
 .items_6 {
-  background-image: url(../../img/item-6.png);
+  background-image: url(../img/item-6.png);
   background-repeat: no-repeat;
   background-position: top;
 }
 .items_7 {
-  background-image: url(../../img/item-7.png);
+  background-image: url(../img/item-7.png);
   background-repeat: no-repeat;
   background-position: top;
 }
 .items_8 {
-  background-image: url(../../img/item-8.png);
+  background-image: url(../img/item-8.png);
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -822,7 +822,7 @@ p {
   background-color: #222224;
 }
 .sales_img {
-  background-image: url(../../img/sale.png);
+  background-image: url(../img/sale.png);
   width: 767px;
   min-height: 529px;
 }
@@ -1212,21 +1212,21 @@ p {
 .icon_advantages_1 {
   height: 50px;
   width: 50px;
-  background-image: url(../../img/icon-delivery.png);
+  background-image: url(../img/icon-delivery.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 .icon_advantages_2 {
   height: 50px;
   width: 50px;
-  background-image: url(../../img/icon-sale.png);
+  background-image: url(../img/icon-sale.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 .icon_advantages_3 {
   height: 50px;
   width: 50px;
-  background-image: url(../../img/icon-quantity.png);
+  background-image: url(../img/icon-quantity.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1409,7 +1409,7 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 .soingle_product_btn {
-  background-image: url(../../img/forma_1_copy_2587.png);
+  background-image: url(../img/forma_1_copy_2587.png);
   background-repeat: no-repeat;
   background-position: center;
   background-position-x: 195px;
@@ -1427,7 +1427,7 @@ input::-webkit-inner-spin-button {
 }
 .soingle_product_btn:hover {
   background-color: #f16d7f;
-  background-image: url(../../img/cart111.png);
+  background-image: url(../img/cart111.png);
   color: #ffffff;
 }
 .options_name {
@@ -2023,7 +2023,7 @@ h5.r_cvc {
   margin-top: 97px;
 }
 .feedback_bkg {
-  background-image: url(../../img/bg.png);
+  background-image: url(../img/bg.png);
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -2040,7 +2040,7 @@ h5.r_cvc {
 .coment_img {
   width: 83px;
   height: 83px;
-  background-image: url(../../img/review1.png);
+  background-image: url(../img/review1.png);
   background-repeat: no-repeat;
   margin-right: 28px;
 }

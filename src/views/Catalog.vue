@@ -4,7 +4,7 @@
         <div class="container header-container">
             <div class="header-logo">
                 <a class="logo-link" href="index.html">
-                    <img class="logo-img" src="@/img/logo.png" alt="logo">
+                    <img class="logo-img" src="@/assets/img/logo.png" alt="logo">
                     BRAN<span class="pink">D</span>
                 </a>
             </div>
@@ -39,16 +39,17 @@
 
                 <form action="#" class="search">
                     <input class="search-field" type="text" placeholder="Search for Item...">
-                    <button class="search-btn"><img src="@/img/search.png" alt="search"></button>
+                    <button class="search-btn">
+                        <img src="@/assets/img/search.png" alt="search"></button>
                 </form>
             </div>
 
             <div class="login">
-                <a href="#"><img src="@/img/cart.png" alt=""></a>
+                <a href="#"><img src="@/assets/img/cart.png" alt=""></a>
                 <div class="account"><button>My Account <i class="fas fa-caret-down"></i></button>
                     <div class="drop_cart">
                         <div class="drop_cart_one_product">
-                          <img src="@/img/hhd/rectangle_24_1821.jpg" alt="#">
+                          <img src="@/assets/img/hhd/rectangle_24_1821.jpg" alt="#">
                             <div>
                                 <h4>Rebox Zane</h4>
                                 <ul class="stars">
@@ -65,7 +66,7 @@
                                 <i class="fas fa-times-circle"></i></button></div>
                         </div>
                         <div class="drop_cart_one_product">
-                          <img src="@/img/hhd/rectangle_24_1830.png" alt="#">
+                          <img src="@/assets/img/hhd/rectangle_24_1830.png" alt="#">
                             <div>
                                 <h4>Rebox Zane</h4>
                                 <ul class="stars">
