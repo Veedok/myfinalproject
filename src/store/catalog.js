@@ -20,7 +20,7 @@ export default {
             id_product: 1,
             product_name: 'Keyboard',
             price: 1600,
-            img: '../img/Product/image_placeholder_1657.jpg',
+            img: '/img/Product/image_placeholder_1657.jpg',
           },
           {
             id_product: 2,
