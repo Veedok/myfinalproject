@@ -1,18 +1,16 @@
 <template>
-  <div>
     <article class="product_catalog">
-    <catalog-item v-for="good of goods" :good="good" :key="good.id_product"></catalog-item>
+    <cart-item v-for="good of goods" :good="good" :key="good.id_product"></cart-item>
     </article>
-  </div>
 </template>
 
 <script>
 import { mapActions, mapGetters } from 'vuex';
-import CatalogItem from './CatalogItem.vue';
+import CartItem from './CartItem.vue';
 
 export default {
-  components: { CatalogItem },
-  name: 'CatalogList',
+  components: { CartItem },
+  name: 'CartList',
   computed: {
     ...mapGetters(['goods']),
   },
