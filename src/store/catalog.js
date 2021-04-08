@@ -1,3 +1,5 @@
+// import axios from 'axios';
+
 export default {
   state: {
     goods: [],
@@ -74,6 +76,9 @@ export default {
         console.log(goods);
         commit('SET_GOODS_LIST', goods);
       }, 1000);
+      // const { data: goods } = await axios.get('https://raw.githubusercontent.com/Veedok/myfinalproject/my/myJson.json');
+      // commit('SET_GOODS_LIST', goods);
+      // console.log(goods);
     },
   },
 };
