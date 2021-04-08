@@ -4,7 +4,7 @@
         <div class="container header-container">
             <div class="header-logo">
                 <a class="logo-link" href="index.html">
-                    <img class="logo-img" src="img/logo.png" alt="logo">
+                    <img class="logo-img" src="../assets/img/logo.png" alt="logo">
                     BRAN<span class="pink">D</span>
                 </a>
             </div>
@@ -38,7 +38,8 @@
                 </div>
                 <form action="#" class="search">
                     <input class="search-field" type="text" placeholder="Search for Item...">
-                    <button class="search-btn"><img src="img/search.png" alt="search"></button>
+                    <button class="search-btn">
+                        <img src="../assets/img/search.png" alt="search"></button>
                 </form>
             </div>
 

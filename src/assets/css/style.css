@@ -1120,7 +1120,7 @@ p {
 .product_catalog {
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 .catalog_card:hover {
   transform: scale(1.05);

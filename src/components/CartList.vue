@@ -1,5 +1,5 @@
 <template>
-    <article class="product_catalog">
+    <article class="catalog">
     <cart-item v-for="good of goods" :good="good" :key="good.id_product"></cart-item>
     </article>
 </template>
