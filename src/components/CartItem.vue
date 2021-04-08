@@ -1,7 +1,7 @@
 <template>
 <div class="goods">
                 <div class="product_details">
-                    <img :src='good.img' alt="#">
+                    <img :src=require(good.img) alt="#">
                     <h4>{{ good.product_name }}</h4>
                     <span class="const">Color:<span class="vari">Red</span></span><br>
                     <span class="const">Size:<span class="vari">Xll</span></span>
