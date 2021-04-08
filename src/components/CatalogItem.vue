@@ -5,7 +5,7 @@
                             <div class="item_mask item_mask_product">
                                     <div class="buy_item"><img src="img/cart.png" alt="">
                                     <span>Add to Cart</span></div>
-                                </div><img :src=number alt="#">
+                                </div><img :src='good.img' alt="#">
                             <p class="catalog_text">{{ good.product_name }}</p>
                             <p class="catalog_price">{{ good.price }}</p>
                         </div>
@@ -15,11 +15,11 @@
 <script>
 
 export default {
-  data() {
-    return {
-      number: this.good.img,
-    };
-  },
+//   data() {
+//     return {
+//       number: Response.this.good.img,
+//     };
+//   },
   name: 'CatalogItem',
   props: ['good'],
 };

@@ -3,13 +3,13 @@
       "id_product": 1,
       "product_name": "Keyboard",
       "price": 1600,
-      "img": "'@/assets/img/Product/image_placeholder_1657.jpg'"
+      "img": "'../../assets/img/Product/image_placeholder_1657.jpg'"
     },
     {
       "id_product": 2,
       "product_name": "Gamepad",
       "price": 3000,
-      "img": "@/assets/img/Product/image_placeholder_1877.png"
+      "img": "../assets/img/Product/image_placeholder_1877.png"
     },
     {
       "id_product": 3,
