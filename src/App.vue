@@ -106,11 +106,11 @@
   </div>
 </template>
 <script>
+
 export default {
   methods: {
-    addToCart(good) {
-      console.log(good);
-      console.log(this.Cart);
+    addToCart() {
+      console.log(2);
     }
   }
 };

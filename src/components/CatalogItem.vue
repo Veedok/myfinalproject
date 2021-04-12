@@ -4,7 +4,7 @@
                         <div class="catalog_card">
                             <div class="item_mask item_mask_product">
                                    <div class="buy_item"
-                                    @click.prevent="$root.addToCart(good)">
+                                    @click.prevent='addToCart(2)'>
                                      <img src="img/cart.png" alt="">
                                     <span>Add to Cart</span></div>
                                 </div><img :src="good.img" alt="#">
@@ -19,5 +19,9 @@
 export default {
   name: 'CatalogItem',
   props: ['good'],
+  good: {
+    type: Object,
+    required: true,
+  },
 };
 </script>

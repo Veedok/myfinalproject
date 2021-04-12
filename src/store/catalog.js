@@ -14,6 +14,11 @@ export default {
       state.goods = goods;
     },
   },
+  methods: {
+    addToCart() {
+      console.log(2);
+    }
+  },
   actions: {
     async getGoodsList({ commit }) {
       // setTimeout(() => {
