@@ -76,7 +76,7 @@ export default {
       //   console.log(goods);
       //   commit('SET_GOODS_LIST', goods);
       // }, 1000);
-      const { data: goods } = await axios.get('https://raw.githubusercontent.com/Veedok/myfinalproject/my/myJson.json');
+      const { data: goods } = await axios.get('https://raw.githubusercontent.com/Veedok/myfinalproject/master/myJson.json');
       console.log(goods);
       const newGoods = goods.map((good) => {
         // eslint-disable-next-line no-param-reassign
@@ -84,6 +84,7 @@ export default {
         return good;
       });
       commit('SET_GOODS_LIST', newGoods);
+      console.log(newGoods);
     },
   },
 };
