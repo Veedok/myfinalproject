@@ -1,0 +1,56 @@
+[
+  {
+    "id_product": 1,
+    "product_name": "Ribbed Turtleneck Sweater",
+    "price": 1600,
+    "img": "/img/Product/image_placeholder_1657.jpg"
+  },
+  {
+    "id_product": 2,
+    "product_name": "Turtleneck Sweater",
+    "price": 3200,
+    "img": "/img/Product/image_placeholder_1877.png"
+  },
+  {
+    "id_product": 3,
+    "product_name": "Ribbed Crew Neck Sweater",
+    "price": 5000,
+    "img": "/img/Product/image_placeholder_1907.png"
+  },
+  {
+    "id_product": 4,
+    "product_name": "Half Zip Funnel Neck",
+    "price": 1800,
+    "img": "/img/Product/image_placeholder_1937.jpg"
+  },
+  {
+    "id_product": 5,
+    "product_name": "MAN Signature Zip",
+    "price": 3300,
+    "img": "/img/Product/image_placeholder_1967.jpg"
+  },
+  {
+    "id_product": 6,
+    "product_name": "Oversized Tie Dye Hoodie",
+    "price": 2800,
+    "img": "/img/Product/image_placeholder_1997.jpg"
+  },
+  {
+    "id_product": 7,
+    "product_name": "Basic Over The Head",
+    "price": 4900,
+    "img": "/img/Product/image_placeholder_2027.jpg"
+  },
+  {
+    "id_product": 8,
+    "product_name": "Official Oversized",
+    "price": 5700,
+    "img": "/img/Product/image_placeholder_2057.jpg"
+  },
+  {
+    "id_product": 9,
+    "product_name": "Original MAN Over The",
+    "price": 900,
+    "img": "/img/Product/image_placeholder_2087.jpg"
+  }
+]

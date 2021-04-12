@@ -1119,8 +1119,8 @@ p {
 }
 .product_catalog {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .catalog_card:hover {
   transform: scale(1.05);
@@ -1513,6 +1513,7 @@ input::-webkit-inner-spin-button {
   padding: 25px 0px;
 }
 .product_details img {
+  width: 90px;
   float: left;
   margin-right: 21px;
 }

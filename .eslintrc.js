@@ -12,7 +12,10 @@ module.exports = {
   },
   rules: {
     'global-require': 0,
+    'comma-dangle': ['error', 'only-multiline'],
+    quotes: [2, 'single', {avoidEscape: true}],
     'linebreak-style': ['error', 'windows'],
+    'import/no-dynamic-require': 0,
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
   },
