@@ -77,8 +77,17 @@ export default {
       //   commit('SET_GOODS_LIST', goods);
       // }, 1000);
       const { data: goods } = await axios.get('https://raw.githubusercontent.com/Veedok/myfinalproject/my/myJson.json');
-      commit('SET_GOODS_LIST', goods);
       console.log(goods);
+      const newGoods = goods.map((good) => {
+        // eslint-disable-next-line no-param-reassign
+        good.img = require(`@/assets${good.img.replace('@assets', '')}`);
+        return good;
+      });
+      commit('SET_GOODS_LIST', newGoods);
     },
   },
 };
+// const newGoods = goods.map((good) => {
+//   good.img = require(`@/assets${good.img.replace('@assets', '')}`)
+//   return good
+// })
