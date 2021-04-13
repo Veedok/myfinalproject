@@ -12,7 +12,7 @@ export default {
   components: { CartItem },
   name: 'CartList',
   computed: {
-    ...mapGetters(['goods']),
+    ...mapGetters(['Cart']),
   },
   methods: {
     ...mapActions(['getGoodsList']),

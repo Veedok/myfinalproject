@@ -10,5 +10,10 @@ Vue.config.productionTip = false;
 new Vue({
   router,
   store,
+  methods: {
+    addToCart(j) {
+      console.log(j);
+    }
+  },
   render: (h) => h(App),
 }).$mount('#app');

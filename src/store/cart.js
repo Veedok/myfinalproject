@@ -1,7 +1,15 @@
 export default {
-  methods: {
-    addToCart() {
-      console.log(2);
-    }
+  state: {
+    Cart: [],
   },
+  getters: {
+    Cart(state) {
+      return state.Cart;
+    },
+  },
+  mutations: {
+    addToCart(s) {
+      return this.state.Cart.push(s);
+    }
+  }
 };
