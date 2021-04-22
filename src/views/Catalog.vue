@@ -183,11 +183,5 @@ import CatalogList from '@/components/CatalogList.vue';
 
 export default {
   components: { CatalogList },
-  methods: {
-    addToCart(good) {
-      console.log(good);
-      console.log(this.Cart);
-    }
-  }
 };
 </script>

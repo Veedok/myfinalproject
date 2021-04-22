@@ -1,7 +1,7 @@
 <template>
   <div>
     <article class="product_catalog">
-    <catalog-item v-for="good of goods" :good="good" :key="good.id_product"></catalog-item>
+    <catalog-item v-for="good of filtered" :good="good" :key="good.id_product"></catalog-item>
     </article>
   </div>
 </template>
@@ -14,7 +14,7 @@ export default {
   components: { CatalogItem },
   name: 'CatalogList',
   computed: {
-    ...mapGetters(['goods']),
+    ...mapGetters(['filtered']),
   },
   methods: {
     ...mapActions(['getGoodsList']),

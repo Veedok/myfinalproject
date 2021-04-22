@@ -7,21 +7,33 @@
                     <span class="const">Size:<span class="vari">Xll</span></span>
                 </div>
                 <div class="unite_price"><span>{{ good.price }}</span></div>
-                <div class="quantity"><input v-model="number" type="number" placeholder="2"></div>
+                <div class="quantity">
+                  <input v-model="number" type="number"></div>
                 <div class="shipping"><span>FREE</span></div>
                 <div class="subtotal"><span>{{ good.price * number }}</span></div>
-                <div class="actoon"><button><i class="fas fa-times-circle"></i></button></div>
+                <div class="actoon" @click.prevent="remove(good)">
+                  <button><i class="fas fa-times-circle"></i></button></div>
             </div>
 </template>
 
 <script>
+import { mapGetters, mapMutations } from 'vuex';
+
 export default {
   data() {
     return {
-      number: 1,
+      number: this.good.quantity,
     };
   },
   name: 'CartItem',
   props: ['good'],
+  methods: {
+    ...mapMutations(['remove']),
+  },
+  computed: {
+    ...mapGetters({
+      Cart: ['cart/Cart']
+    }),
+  },
 };
 </script>

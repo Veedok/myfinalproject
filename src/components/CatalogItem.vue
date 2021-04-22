@@ -4,7 +4,7 @@
                         <div class="catalog_card">
                             <div class="item_mask item_mask_product">
                                    <div class="buy_item"
-                                   @click.prevent="addToCart(good)">
+                                   @click.prevent="fetchprod(good)">
                                      <img src="img/cart.png" alt="">
                                     <span>Add to Cart</span></div>
                                 </div><img :src="good.img" alt="#">
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex';
+import { mapGetters, mapMutations } from 'vuex';
 
 export default {
   name: 'CatalogItem',
@@ -29,17 +29,12 @@ export default {
     required: true,
   },
   methods: {
-    ...mapActions({
-      addToCart: 'cart/addToCart',
-    }),
-    test() {
-      console.log(this.addToCart);
-    }
+    ...mapMutations(['fetchprod'], ['getJson']),
   },
   computed: {
     ...mapGetters({
       Cart: ['cart/Cart']
-    })
+    }),
   },
 };
 </script>
