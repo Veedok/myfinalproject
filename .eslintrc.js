@@ -16,6 +16,8 @@ module.exports = {
     quotes: [2, 'single', {avoidEscape: true}],
     'linebreak-style': ['error', 'windows'],
     'import/no-dynamic-require': 0,
+    "camelcase": 0,
+    'consistent-return': 0,
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
   },
