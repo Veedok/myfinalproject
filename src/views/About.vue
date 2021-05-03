@@ -56,8 +56,8 @@
                 </form>
             </div>
             <div class="total">
-                <h6>Sub total<span>$900</span></h6>
-                <h4>GRAND TOTAL<span class="total_pink">$900</span></h4>
+                <h6>Sub total<span>{{ summ }}</span></h6>
+                <h4>GRAND TOTAL<span class="total_pink">{{ summ }}</span></h4>
                 <hr>
                 <button>proceed to checkout</button>
             </div>
@@ -68,9 +68,13 @@
 </template>
 <script>
 
+import { mapGetters } from 'vuex';
 import CartList from '../components/CartList.vue';
 
 export default {
   components: { CartList },
+  computed: {
+    ...mapGetters(['summ']),
+  },
 };
 </script>

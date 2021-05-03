@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { mapGetters, mapMutations } from 'vuex';
+import { mapActions, mapGetters } from 'vuex';
 
 export default {
   data() {
@@ -28,7 +28,7 @@ export default {
   name: 'CartItem',
   props: ['good'],
   methods: {
-    ...mapMutations(['remove']),
+    ...mapActions(['remove']),
   },
   computed: {
     ...mapGetters({

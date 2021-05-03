@@ -51,7 +51,7 @@
                         <cart-listl></cart-listl>
                         <div class="drop_cart_total_price">
                             <h5>TOTAL</h5>
-                            <h5>$500.00</h5>
+                            <h5>{{ summ }}</h5>
                         </div>
                         <div class="drop_cart_action">
                             <a class="drop-cart-ac" href="checkout.html">Checkout</a>
@@ -67,8 +67,8 @@
     </header>
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/Catalog">Catalog</router-link>
+      <router-link to="/Catalog">Catalog</router-link> |
+      <router-link to="/about">Cart</router-link>
     </div>
     <router-view/>
     <footer>
@@ -211,7 +211,7 @@
 
 <script>
 import CartListl from '@/components/CartListl.vue';
-import { mapMutations } from 'vuex';
+import { mapMutations, mapActions } from 'vuex';
 
 export default {
   data() {
@@ -223,6 +223,11 @@ export default {
   components: { CartListl },
   methods: {
     ...mapMutations(['filter']),
+    ...mapActions(['getGoodsList', 'getCartList']),
+  },
+  created() {
+    this.getGoodsList();
+    this.getCartList();
   },
 };
 </script>
