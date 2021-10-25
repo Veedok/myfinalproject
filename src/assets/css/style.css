@@ -284,6 +284,7 @@ input[type="number"]:focus {
 }
 .drop_cart_one_product img {
   margin-right: 15px;
+  width: 35px;
 }
 .stars {
   padding: 0;
